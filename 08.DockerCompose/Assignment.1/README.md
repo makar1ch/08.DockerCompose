@@ -17,5 +17,3 @@ curl http://localhost:5001
 
 Вывод:
 `{"message":"Flask + PostgreSQL running","visits":11}`
-
-
