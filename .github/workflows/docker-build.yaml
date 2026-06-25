@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/flask-ci:${{ github.sha }} /Users/Mac/Documents/ithome/08.DockerCompose/08.DockerCompose/Assignment.2/
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/flask-ci:${{ github.sha }} 08.DockerCompose/Assignment.2
 
       - name: Push Docker image
         run: |
